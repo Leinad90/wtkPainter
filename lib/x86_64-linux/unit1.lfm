@@ -1,0 +1,46 @@
+object Form1: TForm1
+  Left = 2720
+  Height = 904
+  Top = 489
+  Width = 1067
+  Caption = 'Form1'
+  ClientHeight = 904
+  ClientWidth = 1067
+  LCLVersion = '4.4.0.0'
+  OnCreate = FormCreate
+  OnResize = FormResize
+  object Edit1: TEdit
+    Left = 10
+    Height = 32
+    Top = 10
+    Width = 822
+    TabOrder = 0
+    Text = 'POINT(100 100)'
+    OnChange = Edit1Change
+  end
+  object Image1: TImage
+    Left = 10
+    Height = 999
+    Top = 72
+    Width = 999
+    Enabled = False
+  end
+  object Button1: TButton
+    Left = 848
+    Height = 32
+    Top = 10
+    Width = 75
+    Caption = 'Draw'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 936
+    Height = 32
+    Top = 10
+    Width = 75
+    Caption = 'Reset'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+end
